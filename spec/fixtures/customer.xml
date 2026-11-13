@@ -41,6 +41,7 @@
     <Lat>36.9507991</Lat>
     <Long>-122.0477003</Long>
   </ShipAddr>
+  <Other>Other arbitrary content</Other>
   <Job>false</Job>
   <BillWithParent>false</BillWithParent>
   <Balance>0</Balance>

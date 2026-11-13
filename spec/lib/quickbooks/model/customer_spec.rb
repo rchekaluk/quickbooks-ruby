@@ -36,6 +36,8 @@ describe "Quickbooks::Model::Customer" do
     expect(customer.shipping_address.lat).to eq("36.9507991")
     expect(customer.shipping_address.lon).to eq("-122.0477003")
 
+    expect(customer.other).to eq("Other arbitrary content")
+
     expect(customer.job?).to eq(false)
     expect(customer.bill_with_parent?).to eq(false)
     expect(customer.balance).to eq(0)

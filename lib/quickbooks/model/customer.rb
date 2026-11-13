@@ -57,6 +57,7 @@ module Quickbooks
       xml_accessor :primary_tax_identifier, :from => 'PrimaryTaxIdentifier'
       xml_accessor :customer_type_ref, :from => 'CustomerTypeRef', :as => BaseReference
       xml_accessor :isproject?, :from => 'IsProject'
+      xml_accessor :other, :from => 'Other'
 
       #== Validations
       validate :names_cannot_contain_invalid_characters
